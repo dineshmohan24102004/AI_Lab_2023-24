@@ -39,6 +39,7 @@ halfsubtractor(A,B,Diff,Bo):-
 ```
 ### Output:
 
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/0ae0b6f9-76ac-46c5-9abd-a939c9787624)
 
 
 ### Result:
