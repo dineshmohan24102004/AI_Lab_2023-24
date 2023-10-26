@@ -19,6 +19,7 @@ hypothesis(Patient,german_measles) :-
  symptom(Patient,headache),
  symptom(Patient,runny_nose),
  symptom(Patient,rash).
+ 
 hypothesis(Patient,flu) :-
  symptom(Patient,fever),
  symptom(Patient,headache),
