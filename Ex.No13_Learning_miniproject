@@ -6,6 +6,7 @@ To write a program to train the classifier for -----------------.
 ###  Algorithm:
 
 ### Program:
+
 (define (domain blocksworld)
 (:requirements :strips :equality)
 (:predicates (clear ?x)
@@ -38,7 +39,8 @@ To write a program to train the classifier for -----------------.
 (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
 
 
-## problem
+### problem:
+
 (define (problem pb1)
 (:domain blocksworld)
 (:objects a b)
