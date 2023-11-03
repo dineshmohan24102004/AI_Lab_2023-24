@@ -1,5 +1,5 @@
 # Ex.No: 10  Logic Programming –  Simple queries from facts and rules
-### DATE:                                                                            
+### DATE: 23.09.2023                                                                           
 ### REGISTER NUMBER : 212222040039
 ### AIM: 
 To write a prolog program to find the answer of query. 
@@ -59,6 +59,7 @@ course(bk301,dept(havefun)).
 ```
 
 ### Output:
+![280197577-27844cc4-0534-4dda-8eff-797edce45a69](https://github.com/dineshmohan24102004/AI_Lab_2023-24/assets/119478475/fe42ff51-b86c-4baf-91a4-19bde333918d)
 
 ### Task 3:
 ```
@@ -87,6 +88,7 @@ american(west)
 ```
 
 ### Output:
+![280198207-00572951-d06b-4d87-8f42-c1ec635f3cb0](https://github.com/dineshmohan24102004/AI_Lab_2023-24/assets/119478475/6081f4ce-9de5-4a8d-b2aa-4b84fc43623b)
 
 ### Result:
 Thus the prolog programs were executed successfully and the answer of query was found.
