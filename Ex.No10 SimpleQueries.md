@@ -59,8 +59,8 @@ course(bk301,dept(havefun)).
 
 ### Task 3:
 ```
-“This is a crime for an American to sell weapons to hostile nations.
-The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American”
+This is a crime for an American to sell weapons to hostile nations.
+The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American
 ```
 
 ### Program:
