@@ -1,6 +1,6 @@
 # Ex.No: 11  Planning –  Block World Problem 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 07.10.2023                                                                           
+### REGISTER NUMBER : 212222040039
 ### AIM: 
 To find the sequence of plan for Block word problem using PDDL  
 ###  Algorithm:
@@ -16,19 +16,59 @@ Step 9 : Define a problem for block world problem.<br>
 Step 10 : Obtain the plan for given problem.<br> 
      
 ### Program:
+### domain.pddl
+```
+(define (domain blocksworld)
+(:requirements :strips :equality)
+(:predicates (clear ?x)
+      (on-table ?x)
+      (arm-empty)
+      (holding ?x)
+      (on ?x ?y))
+(:action pickup
+ :parameters (?ob)
+ :precondition (and (clear ?ob) (on-table ?ob) (arm-empty))
+ :effect (and (holding ?ob) (not (clear ?ob)) (not (on-table ?ob))
+          (not (arm-empty))))
+(:action putdown
+  :parameters (?ob)
+  :precondition (and (holding ?ob))
+  :effect (and (clear ?ob) (arm-empty) (on-table ?ob)
+          (not (holding ?ob))))
+(:action stack
+ :parameters (?ob ?underob)
+ :precondition (and (clear ?underob) (holding ?ob))
+ :effect (and (arm-empty) (clear ?ob) (on ?ob ?underob)
+          (not (clear ?underob)) (not (holding ?ob))))
+(:action unstack
+ :parameters (?ob ?underob)
+ :precondition (and (on ?ob ?underob) (clear ?ob) (arm-empty))
+:effect (and (holding ?ob) (clear ?underob)
+       (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty))))
+```
+### PROBLEM 1:
+```
+(define (problem pb1)
+(:domain blocksworld)
+(:objects a b)
+(:init (on-table a) (on-table b) (clear a) (clear b) (arm-empty))
+(:goal (and (on a b))))
+```
+## OUTPUT:
+![280219953-80c25577-9b69-4412-bd23-0d865584a49c](https://github.com/dineshmohan24102004/AI_Lab_2023-24/assets/119478475/c5bd85e3-25ee-4997-8260-2a14aca2cc46)
 
+### PROBLEM 2:
+```
+(define(problem pb3)
+(:domain blocksworld)
+(:objects a b c)
+(:init (on-table a) (on-table b) (on-table c)
+(clear a) (clear b) (clear c) (arm-empty))
+(:goal (and (on a b) (on b c)))
+```
+## OUTPUT:
 
-
-
-
-
-
-
-
-### Input 
-
-### Output/Plan:
-
+![280220706-1fc63d83-be5e-4650-92d9-d97d30e54405](https://github.com/dineshmohan24102004/AI_Lab_2023-24/assets/119478475/5d90061c-cd13-4d56-b4e0-83d4bf564029)
 
 
 ### Result:
