@@ -100,6 +100,12 @@ app.launch(share=True)
 
 ### Output:
 
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/cf2bf2cf-213e-46da-8c3c-e2b1b4b82eb6)
+
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/89af30fd-ecbc-4798-8324-723cd7304139)
+
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/fd6636fe-9fd1-4ee8-901b-ca38c271f1f4)
+
 
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
