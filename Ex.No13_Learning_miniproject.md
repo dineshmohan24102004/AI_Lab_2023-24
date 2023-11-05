@@ -1,10 +1,9 @@
-#Ex.No: 10 Learning – Use Supervised Learning  
-###DATE:                                                                            
-###REGISTER NUMBER : 212222040099
-###AIM: 
+# Ex.No: 10 Learning – Use Supervised Learning  
+### DATE:                                                                            
+### REGISTER NUMBER : 212222040099
+### AIM: 
 To write a program to train the classifier for Diabetes Prediction.
-
-###Algorithm:
+### Algorithm:
 1.Start the program.
 
 2.Import required Python libraries, including NumPy, Pandas, Google Colab, Gradio, and various scikit-learn modules.
@@ -29,7 +28,7 @@ To write a program to train the classifier for Diabetes Prediction.
 
 12.Stop the program.
 
-###Program:
+### Program:
 ```
 #import packages
 import numpy as np
