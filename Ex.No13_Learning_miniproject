@@ -96,7 +96,7 @@ app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','num
 app.launch(share=True)
 
 ### Output:
-
+"C:\Users\SEC\Pictures\AI 13.png"
 
 
 
