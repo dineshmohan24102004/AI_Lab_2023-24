@@ -1,6 +1,6 @@
 # Ex.No: 13 Learning – Use Supervised Learning  
 ### DATE:                                                                            
-### REGISTER NUMBER : 212222040099
+### REGISTER NUMBER : 212222040039
 ### AIM: 
 To write a program to train the classifier for Diabetes Prediction.
 ### Algorithm:
